@@ -52,7 +52,7 @@ ___
 ### License and Copywright Information
 (c) Angie Cerra Omondi, Software Engineer.
 
-Licensed under the [MIT License](LISENCE)
+Licensed under the [MIT License](LICENCE)
 
 ---
 ___
