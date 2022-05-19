@@ -1,0 +1,29 @@
+
+  
+{% extends 'base.html'%}
+{% block content %}
+<div class="container-fluid landing">
+    <div class="row">
+                {% for category in pitches %}
+                <div class="col-md-4 d-flex jusify-content-center" style="margin: 7%; width:20%;">
+                    <div class="card">
+                        <h5 style="color:black; font-size:x-large" class="card-header">{{category.title}}</h5>
+                        <div class="card-body">
+                                <p style="font-size: larger;">{{category.post}}</p>
+                                <p class="text-center"> Category: {{category.category}}</p>
+                                <footer class="blockquote-footer text-center" > Posted by: {{category.username}}</footer> 
+
+									
+									
+                        
+                                    <a href="" class="btn btn-primary"> Comment</a>
+                                </div>
+                            
+                        </div>
+                    </div>
+                
+                {% endfor %}
+
+    </div>
+</div>
+{% endblock %}

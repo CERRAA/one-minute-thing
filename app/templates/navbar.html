@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark" id="nav" >
+    <div class="nav-logo">
+        <a href="{{url_for('main.index')}}" class="nav-link main-logo">
+            <div class="main-tooltip">
+                <i class='bx bxs-pen'></i>
+            </div>Pitches App
+        </a>
+        <a href="{{url_for('main.pitch')}}" class="nav-link">All Pitches</a>
+        
+    </div>
+    <ul class="nav-items">
+
+      
+       
+        
+        <li class="nav-item"><a href="{{url_for('auth.login')}}" class="nav-link">Login</a></li>
+        <li class="nav-item"><a href="{{url_for('main.new_pitch')}}" class="nav-link">Make Pitch</a></li>
+    </ul>
+</nav>
