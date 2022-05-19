@@ -1,5 +1,5 @@
-source env/bin/activate__pycache__
 vs
 vscode
 .vscode
 bash*
+virtual/
