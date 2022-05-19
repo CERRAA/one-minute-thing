@@ -2,4 +2,4 @@ vs
 vscode
 .vscode
 bash*
-virtual/
+venv/
